@@ -20,7 +20,7 @@ const submarine = {
   depth: 0
 }
 
-runTest('day 2', createRunner(2, transformer, (values) => {
+runTest('day 02', createRunner(2, transformer, (values) => {
   values.forEach(([action, value]) => {
     switch (action) {
       case 'forward':

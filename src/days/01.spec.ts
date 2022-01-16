@@ -9,7 +9,7 @@ enum Measurement {
 }
 
 
-runTest('day 1', createRunner<number[], number>(1, numbersList, (values) => {
+runTest('day 01', createRunner<number[], number>(1, numbersList, (values) => {
   const measurements = values.reduce((measures, curValue, curIdx, originArr) => {
     if (curIdx < 1) {
       return []
